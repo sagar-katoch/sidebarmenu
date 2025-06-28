@@ -5,13 +5,52 @@
   font-weight: 400;
   font-style: normal;
 }
+
+
+
+
 .main_box{
 
-background-image: url("image.png");
-background-size: cover;
-background-repeat: no-repeat;
+
 height: 100vh;
+background-image: url("https://plus.unsplash.com/premium_photo-1663134149019-284682ece04c?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+background-size: cover;
 
+}
+.btn_one{
 
+color: rgb(0, 0, 0);
+font-size: 30px;
+font-weight: 700;
+position: absolute;
+left: 16px;
+line-height: 60px;
 
+}
+.sidebar_menu{
+
+position: fixed;
+/* left: -350px; */
+height: 100vh;
+width: 300px;
+background-color: rgba(255, 255, 255, 0.479);
+box-shadow: 15px -6px 10px rgba(12, 11, 11, 0.5);
+
+}
+.sidebar_menu  .logo {
+
+color: white;
+text-decoration: none;
+border: none;
+position: absolute;
+width: 100%;
+line-height: 60px;
+box-shadow: -1px 9px 16px #5d5050;
+
+}
+.logo a{
+    position: absolute;
+    left: 55px;
+    text-decoration: none;
+    
 }
