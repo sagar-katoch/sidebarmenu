@@ -25,6 +25,7 @@ font-weight: 700;
 position: absolute;
 left: 16px;
 line-height: 60px;
+cursor: pointer;
 
 }
 .sidebar_menu{
@@ -54,7 +55,7 @@ box-shadow: 0 0 4px rgba(255, 255, 255, 0.5);
     color: white;
     
 }
-.sidebar_menu .btn_two{
+.sidebar_menu .btn_two i{
 
 color: grey;
 
@@ -62,6 +63,7 @@ font-size: 20px;
 line-height: 60px;
 position: absolute;
 left: 275px;
+cursor: pointer;
 
 }
 .sidebar_menu .menu{
@@ -81,7 +83,7 @@ padding: 15px 20px;
 .sidebar_menu .menu a,i{
 
 color: white;
-cursor: pointer;
+
 text-decoration: none;
 font-size: 20px;
 }
@@ -119,9 +121,23 @@ box-shadow: 0 0 4px rgba(255, 255, 255, 0.5);
 
 
 }
-.btn_one:hover{
+.btn_one i:hover{
 
 font-size: 40px;
 
 
+}
+.btn_two i:hover{
+    font-size: 30px;
+}
+.sidebar_menu .social_media i:hover{
+   opacity: 1;
+    transform: scale(1.5);
+  
+}
+#check:checked{
+
+
+
+    
 }
