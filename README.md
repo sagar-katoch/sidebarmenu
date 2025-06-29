@@ -5,7 +5,7 @@ This project showcases a sleek, responsive sidebar navigation menu created using
 ## 📸 Preview
 ![alt text](image-1.png)
 
-![Preview Image](image.png)
+
 
 > Make sure to replace the `image.png` with your actual background image or provide a live preview if deployed.
 
