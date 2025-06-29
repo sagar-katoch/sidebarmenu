@@ -6,11 +6,7 @@
     font-style: normal;
 }
 
-
-
-
 .main_box {
-
 
     height: 100vh;
     background-image: url("image.png");
@@ -27,6 +23,7 @@
     left: 16px;
     line-height: 60px;
     cursor: pointer;
+    transition: all 0.5s linear;
 
 }
 
@@ -47,7 +44,8 @@
     position: absolute;
     width: 100%;
     line-height: 60px;
-    box-shadow: 0 0 4px rgba(255, 255, 255, 0.5);
+    box-shadow: 0 2px 4px rgba(255, 255, 255, 0.5);
+    height: 50px;
 
 }
 
@@ -71,6 +69,7 @@
     left: 275px;
     cursor: pointer;
     opacity: 0;
+    transition: all 0.5s linear;
 
 }
 
@@ -166,7 +165,6 @@ opacity: 0;
 
 }
 #check:checked ~ .sidebar_menu .btn_two i{
-
 
     opacity: 1;
 }
